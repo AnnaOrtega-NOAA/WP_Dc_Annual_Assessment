@@ -1,0 +1,107 @@
+---
+title: "West Pacific Leatherback Turtle (Dermochelys coriacea) DPS Population Status and Trend Assessment"
+author: "National Marine Fisheries Service (NMFS) / NOAA Fisheries"
+date: "2026-05-05"
+format:
+  docx:
+    toc: true
+    number-sections: true
+  pdf:
+    toc: true
+    number-sections: true
+mainfont: "Times New Roman"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(flextable)
+
+# --- DATA INPUT SECTION: WEST PACIFIC LEATHERBACK DPS ---
+total_index_n   <- "1,277" 
+trend_long_term <- "-5.7%" 
+```
+
+# EXECUTIVE SUMMARY
+
+The West Pacific leatherback Distinct Population Segment (DPS) is a critically imperiled sea turtle population nesting primarily in Indonesia, the Solomon Islands, and Papua New Guinea. These turtles exhibit a wide range of movement strategies, including some individuals that remain in the Coral Triangle while others migrate across the North Pacific to foraging grounds off the U.S. West Coast or south into the South Pacific and Indian Oceans. The current best estimate of abundance is 1,277 nesting females across the DPS. The population has declined sharply since the 1980s and remains at a substantially reduced level relative to historical conditions. Primary factors influencing population dynamics include ongoing interactions with fisheries and the continued harvest of eggs and nesting females. Environmental conditions, such as rising nesting beach temperatures and changes in ocean productivity, further contribute to uncertainty in the population trajectory.
+
+# DPS DEFINITION AND SCOPE
+
+This assessment focuses on the West Pacific leatherback turtle Distinct Population Segment (DPS) as recognized under the U.S. Endangered Species Act. The DPS includes turtles originating from nesting beaches south of 71° N, north of 47° S, east of 120° E, and west of 117.124° W. The population is considered discrete due to behavioral factors, specifically natal homing and philopatry, where both males and females return to waters off their natal nesting beaches to mate. It is also physically separated from other populations by land masses and oceanographic features. 
+
+![Leatherback turtle DPS boundary map showing the West Pacific DPS relative to the other six global populations.](figures/ESA_Fig8_DPSs.png)
+
+The West Pacific DPS is biologically significant because its loss would result in a significant gap in the species' range and a major loss of genetic diversity. It is the only population known to forage in both hemispheres and it exhibits unique year-round nesting with summer and winter peaks.
+
+# ABUNDANCE
+
+## Abundance Estimation
+
+The current estimate of abundance for this DPS is approximately **1,277 nesting females**. This figure is primarily based on standardized nesting data from two major index beaches in Papua Barat, Indonesia: Jamursba-Medi, with approximately 723 nesting females, and Wermon, with approximately 554 nesting females. While these index beaches are estimated to host 50% to 75% of the total nesting for the DPS, activity in other regions like Papua New Guinea, Solomon Islands, and Vanuatu is present but remains unquantified for this specific index due to a lack of recent standardized datasets.
+
+![Nesting sites of the West Pacific DPS, with circle size representing the index of nesting female abundance.](figures/ESA_Fig39_WP_Nesting.png)
+
+## Estimation Methods
+
+Abundance is calculated as an index of nesting females rather than a direct census of the entire population. This index is derived by summing the total number of nests counted on a beach over the most recent remigration interval and dividing this number by the clutch frequency. For this DPS, a remigration interval of 3 years and a clutch frequency of 5.5 nests per female per season were used based on local estimates from Indonesia. Standardized data collection is required to ensure that older data do not misrepresent current abundance.
+
+# POPULATION TREND
+
+## Trend Overview
+
+The West Pacific DPS exhibits a significant long-term decline that has persisted for several decades. Historical estimates suggest that Jamursba-Medi alone once hosted over 14,000 nests annually in the mid-1980s, whereas current levels are a small fraction of that historical abundance. Annual nest counts at Jamursba-Medi declined at an average rate of **-5.7%** between 2001 and 2017. Regional extirpations have also occurred, most notably the formerly major nesting aggregation in Terengganu, Malaysia, which is now considered functionally extinct. 
+
+## Modeling Methods
+
+Trends in nesting activity were estimated using a Bayesian state-space model (BSSM) of stochastic exponential population growth. This approach allows for the specification of both a biological process model, representing the true number of annual nests, and an observation model, which accounts for the imperfect observation of those nests. By parsing out sources of variability, the long-term trend parameter is better isolated from inter-annual "noise" stemming from environmental variability or data collection errors.
+
+# ABUNDANCE AND TREND DATA INPUTS
+
+## Demographic Parameters
+
+Demographic parameters for the West Pacific DPS show variation linked to foraging regions. The average size of nesting females is approximately 160 cm curved carapace length. Hatching success is notably low in the region, with means ranging from approximately 25.5% at Jamursba-Medi to 47.1% at Wermon, largely due to high beach temperatures and predation. Female survivorship has been estimated at 0.85 in Papua New Guinea, which is lower than estimates for some Atlantic populations.
+
+## Rookery Contributions
+
+The index beaches at Jamursba-Medi and Wermon in Indonesia are the primary contributors to the DPS, representing between 50% and 75% of its total nesting activity. Other significant known contributions traditionally come from the Huon Coast in Papua New Guinea and various sites in the Solomon Islands, such as Isabel Island.
+
+## Data Quality and Uncertainty
+
+Confidence in the total abundance index is categorized as **Moderate**. The primary source of uncertainty is the vast and remote nature of the Western Pacific nesting range. Approximately 25% to 50% of the total nests for the DPS were likely not included in the primary index because recent standardized data are unavailable for many remote locations in Papua New Guinea, the Solomon Islands, and Vanuatu.
+
+# SPATIAL ECOLOGY AND CONNECTIVITY
+
+The West Pacific DPS utilizes diverse foraging grounds across the entire Pacific Ocean basin. Turtles exhibit a unique bimodal nesting strategy with peaks in summer and winter, which lead to distinct movement patterns. Summer nesters primarily migrate toward the Northern Hemisphere, utilizing the Kuroshio Extension and migrating as far as the California Current Ecosystem. Winter nesters generally travel into the Southern Hemisphere to waters off Australia and New Zealand, or remain in tropical seas.
+
+![West Pacific leatherback turtles satellite-tracked from nesting beaches (colored lines) or at sea, illustrating bimodal migration to both hemispheres.](figures/ESA_Fig40_WP_SatTracks.png)
+
+# GENETICS AND STOCK STRUCTURE
+
+Genetic studies indicate that while mitochondrial DNA (mtDNA) sequence data show little differentiation between major nesting sites in Indonesia and the Solomon Islands, nuclear microsatellite DNA reveals a finer-scale genetic structure. This differentiation suggests that nesting aggregations function as demographically independent subpopulations or management units. These subpopulations are connected via metapopulation dynamics essential for the resilience of the DPS.
+
+# THREATS AND STRESSORS
+
+The West Pacific DPS faces severe threats including fisheries bycatch, which is a major source of adult and subadult mortality. Turtles frequently become entangled in pelagic longlines on the high seas and coastal gillnets in Southeast Asian and Australian waters. 
+
+![Exposure of Pacific leatherback turtles to bycatch in longline fisheries by quarter; red boxes represent high fishing pressure areas.](figures/ESA_Fig11_PAC_BycatchHotspots.png)
+
+Overutilization, including the legal and illegal harvest of eggs and nesting females, remains a primary threat. Predation by feral pigs, dogs, and monitor lizards significantly reduces productivity by destroying nests. Additionally, climate change presents an increasing threat as rising sand temperatures lead to reduced hatching success and female-skewed sex ratios.
+
+# SYNTHESIS AND TRACKING
+
+## Synthesis: Population Status
+
+The West Pacific DPS meets the criteria for a **high risk of extinction**. The population is at a level of abundance and productivity that places its continued persistence in question due to precipitous declines at major rookeries. The DPS faces clear and present threats from high mortality in international fisheries and persistent poaching of eggs and females.
+
+## Changes Since Last Assessment
+
+Standardized monitoring and protection efforts have improved in portions of Papua Barat, Indonesia. However, the conclusion of major community-based monitoring projects in Papua New Guinea and the Solomon Islands has made data collection more sporadic in those regions. 
+
+# KEY DATA GAPS AND PRIORITIES
+
+The highest priority for future assessments is to establish and maintain standardized monitoring in the remote regions of Papua New Guinea and the Solomon Islands. There is also a critical need to quantify bycatch rates in small-scale artisanal fisheries across the Indo-Pacific, as these interactions are currently under-reported.
+
+# REFERENCES
+
+National Marine Fisheries Service and U.S. Fish and Wildlife Service. (2020). *Endangered Species Act status review of the leatherback turtle (Dermochelys coriacea)*. Report to the National Marine Fisheries Service Office of Protected Resources and U.S. Fish and Wildlife Service.
+```
