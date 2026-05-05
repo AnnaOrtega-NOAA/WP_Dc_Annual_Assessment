@@ -14,8 +14,6 @@ The West Pacific leatherback DPS is a critically imperiled population nesting pr
 ## Repository Structure
 
 * `PIFSC_MTAP_SAR_MMPAStyle.qmd`: The primary Quarto document used to render the final assessment in `.docx` or `.pdf` formats.
-* `2025_abundance_trend.R`: R script for calculating dynamic abundance indices using a 3-year remigration interval and 5.5 clutch frequency.
-* `take_helper_Fn.R`: Helper functions for mortality and "take" data processing.
 * `figures/`: A directory containing spatial and demographic visualizations from the 2020 ESA Status Review:
     * **ESA_Fig8_DPSs.png**: Global DPS boundary map.
     * **ESA_Fig11_PAC_BycatchHotspots.png**: Fisheries bycatch risk maps.
