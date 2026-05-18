@@ -1,0 +1,10 @@
+# Ignore local raw data folder
+data/
+
+# Ignore executables
+*.exe
+
+# Ignore R session files
+.Rhistory
+*.RData
+.Rproj.user/
